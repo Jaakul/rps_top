@@ -7,6 +7,7 @@
     </head>
     
     <body>
+
 <!-- ///// HEADER HERE /////-->
 <div id="header">
     ROCK PAPER SCISSORS
@@ -21,6 +22,42 @@
 
 
 </div>
+<!--Hidden game over container starts here
+//////////////////////////////////////////
+//////////////////////////////////////////
+///////////////////////////////////////-->
+<div id="hiddenContainer">
+
+    <!-- Header container-->    
+        <div id="headerContainer">
+     
+            <div id="hiddenPlayerScore">
+            You  
+            </div>
+            VS
+            
+            <div id="hiddenCompScore">Computer
+            Computer
+            </div>
+            
+        </div>
+    
+    <!-- WIN or LOSE-->
+    <div id="winOrLose"></div>
+    <!-- GAME OVER-->
+    <div id="gameover">GAME OVER</div>
+ 
+    <!-- PLAY AGAIN? + Button -->
+    <div id="playAgain">
+        <div id="playAgainButton">Play Again?</div>
+    </div>
+    
+    <!--15 container closing div-->
+    </div>    
+    
+    <!--////////////////hidden container ends here//////////-->
+
+
 
 <div id="superContainer">
 <!-- do not insert text into superContainer, 
@@ -37,22 +74,25 @@
 
     <!-- MIDDLE BOX///////////////////-->
 <div id="middleBox">
-    <div id="compChoice">compChoice</div>
+    <div id="compChoice"></div>
 </div>
 
     <!-- RIGHT BOX////////////////////-->
 <div id="rightBox">  
 <div id="playerScoreBox">
     player score
-    <div id="playerScore">7</div>
+    <div id="playerScore"></div>
 </div>
+
 ROUND
-<div id="roundCounter">
-7
+
+<div id="roundCounterDiv">
+<p id="roundCounter"></p>
 </div>
+
 <div id="compScoreBox">
     comp score
-    <div id="compScore">7</div>
+    <div id="compScore"></div>
 </div>
 
 </div>
@@ -62,36 +102,7 @@ ROUND
   
 
 <!-- ROUND OUTCOME-->
-<div id="roundOutcome">SCISSOR BEATS PAPER</div>
-
-
-<!--Hidden game over container starts here
-//////////////////////////////////////////
-//////////////////////////////////////////
-///////////////////////////////////////-->
-<div id="hiddenContainer">
-
-<!-- Header container-->    
-    <div id="headerContainer">
-    <div id="headerBox">
-        <div id="hiddenPlayerScore"></div>
-        <div id="hiddenCompScore"></div>
-    </div>
-    </div>
-
-<!-- WIN or LOSE-->
-<div id="winOrLose"></div>
-
-<!-- GAME OVER-->
-<div id="gameover"></div>
-
-<!-- PLAY AGAIN? + Button -->
-<div id="playAgain">
-    <div id="playAgainButton"></div>
-</div>
-
-<!--15 container closing div-->
-</div>    
+<div id="roundOutcome">CHOOSE WISELY!</div>
 
 
 
@@ -106,7 +117,9 @@ ROUND
 
 
 
-        <script src="rps_script.js"></script>
+
+
+<script src="rps_script.js"></script>
     </body>
  
 </html>
