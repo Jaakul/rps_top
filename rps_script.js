@@ -34,6 +34,7 @@ compChoice.textContent = "";
 hiddenContainer.style.display = "none";
 superContainer.style.display = "inline-flex"
 description.style.display = "inline-flex"
+roundOutcome.textContent ="CHOOSE WISELY!";
 
 }
 
